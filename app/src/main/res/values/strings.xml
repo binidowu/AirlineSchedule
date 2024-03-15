@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Airline Schedule</string>
+    <!-- Shown above left column listing airline names in full schedule fragment -->
+    <string name="airline_name_header">Airline Name</string>
+    <!-- Shown above middle column listing terminal numbers in full schedule fragment -->
+    <string name="terminal_num_header">Terminal</string>
+    <!-- Shown above right column listing arrival times in full schedule fragment -->
+    <string name="arrival_time_header">Arrival Time</string>
+</resources>
