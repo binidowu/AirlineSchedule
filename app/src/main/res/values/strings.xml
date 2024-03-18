@@ -6,4 +6,6 @@
     <string name="terminal_num_header">Terminal</string>
     <!-- Shown above right column listing arrival times in full schedule fragment -->
     <string name="arrival_time_header">Arrival Time</string>
+    <!-- Shown above right column listing arrival times in full schedule fragment -->
+    <string name="status_header">Status</string>
 </resources>

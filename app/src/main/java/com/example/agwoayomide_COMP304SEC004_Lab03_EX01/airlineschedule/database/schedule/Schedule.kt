@@ -16,6 +16,7 @@
 package com.example.agwoayomide_COMP304SEC004_Lab03_EX01.airlineschedule.database.schedule
 
 import androidx.annotation.NonNull
+import androidx.annotation.Nullable
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -30,5 +31,6 @@ data class Schedule(
     @PrimaryKey val id: Int,
     @NonNull @ColumnInfo(name = "airline_name") val airlineName: String,
     @NonNull @ColumnInfo(name = "terminal_num") val terminalNumber: String,
-    @NonNull @ColumnInfo(name = "arrival_time") val arrivalTime: Int
+    @NonNull @ColumnInfo(name = "arrival_time") val arrivalTime: Int,
+    @NonNull @ColumnInfo(name = "Status") val airlineStatus: String
 )

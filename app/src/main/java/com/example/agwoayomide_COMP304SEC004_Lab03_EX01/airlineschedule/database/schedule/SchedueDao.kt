@@ -35,4 +35,7 @@ interface ScheduleDao {
     @Query("SELECT * FROM schedule WHERE terminal_num = :terminalNumber ORDER BY arrival_time ASC")
     fun getByTerminalNumber(terminalNumber: String): Flow<List<Schedule>>
 
+    @Query("SELECT * FROM schedule WHERE Status = :airlineStatus ORDER BY arrival_time ASC")
+    fun getByStatusName(airlineStatus: String): Flow<List<Schedule>>
+
 }
